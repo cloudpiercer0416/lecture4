@@ -43,7 +43,7 @@ while len(urls) > 0 and len(opened) < maxNumUrl:
             urls.append(childUrl)
             seen.append(childUrl)
         else:
-            print("######")
+            print("####")
 
 print("num. of URLs seen = %d, and scanned = %d" % (len(seen), len(opened)))
 print("List of seen URLs:")
